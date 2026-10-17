@@ -34,6 +34,7 @@ const API_SITES = {
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '暴风资源',
+        note: '片库大，泰剧、日韩综艺多，更新频繁',
     },
     tyyszy: {
         api: 'https://tyyszy.com/api.php/provide/vod',
@@ -44,9 +45,10 @@ const API_SITES = {
         name: '小猫咪资源',
     },
     ffzy: {
-        api: 'http://ffzy5.tv/api.php/provide/vod',
-        name: '非凡影视',
-        detail: 'http://ffzy5.tv/',
+        api: 'http://cj.ffzyapi.com/api.php/provide/vod',
+        name: '非凡资源',
+        detail: 'http://cj.ffzyapi.com/',
+        note: '老牌综合站，欧美剧/日韩剧全，带简介和豆瓣评分',
     },
     heimuer: {
         api: 'https://json.heimuer.xyz/api.php/provide/vod',
@@ -112,7 +114,8 @@ const API_SITES = {
     },
     lzi: {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
-        name: '量子资源站',
+        name: '量子资源',
+        note: '片库最大（十万级），更新最快，短剧多，推荐主力源',
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
